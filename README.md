@@ -4,7 +4,7 @@ The code must be run on a Windows desktop system, as the simulation tool is only
 ## Unzip files
 Before execution, unzip the folder and extract the contents of data.7z, SSAM.7z, and Vissim_model.7z. Then, install all required Python packages.
 ## Model training
-You can run the following command to replicate the results:
+You can run the following command to train the results:
 ```
 python train.py
 ```
