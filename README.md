@@ -1,0 +1,1 @@
+The code needs to run on Windows system destop since the simulation tool cannot only available for Windows system. PTV VISSIM 2022 need to be installed on the desktop. Unzip folder first before execution. Install the python packages required. Run 
