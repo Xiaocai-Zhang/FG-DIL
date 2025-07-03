@@ -9,7 +9,10 @@ You can run the following command to train the results:
 python train.py
 ```
 ## Model inference
-You can run the following command to replicate the results:
+Set the dataset path in the config.py file:
+pathVehDemandFile = './demand/dataset1.xlsx'
+You can switch to dataset2.xlsx or dataset3.xlsx to use different datasets.
+To replicate the results, run the following command:
 ```
 python test.py
 ```
