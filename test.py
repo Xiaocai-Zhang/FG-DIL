@@ -106,8 +106,8 @@ model.load_weights(config.modelSavePath)
 Vissim = win32com.client.gencache.EnsureDispatch("Vissim.Vissim.2022")
 cur_dic = os.getcwd()
 cur_dic = cur_dic.replace('\\', '/')
-Filename_inpx = cur_dic + config.simulationFilePathInpx
-Filename_layx = cur_dic + config.simulationFilePathLayx
+Filename_inpx = cur_dic + "/Vissim_model/Intersection_1.inpx"
+Filename_layx = cur_dic + "/Vissim_model/Intersection_1.layx"
 Vissim.LoadNet(Filename_inpx, False)
 Vissim.LoadLayout(Filename_layx)
 config.dfLinkInfo = pd.read_csv(config.pathlinkFile)

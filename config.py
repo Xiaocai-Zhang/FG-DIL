@@ -25,6 +25,4 @@ minAcceleration = -8
 pathlinkFile = './link/links.csv'
 pathVehDemandFile = './demand/dataset1.xlsx'
 modelSavePath = './model/model.weights.h5'
-simulationFilePathInpx = "/Vissim_model/Intersection_1.inpx"
-simulationFilePathLayx = "/Vissim_model/Intersection_1.layx"
 demand_sheets_veh = [1,2,3,4,5]
