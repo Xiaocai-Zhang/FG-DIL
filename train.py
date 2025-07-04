@@ -107,8 +107,8 @@ def denormalize(y_scaled, y_min, y_max):
 # ===================
 # Load and Preprocess
 # ===================
-x = np.load("./data/inp_all_array_t05.npy")
-y = np.load("./data/oup_all_array_t05.npy")
+x = np.load("./ETPB/inp_all_array_t05.npy")
+y = np.load("./ETPB/oup_all_array_t05.npy")
 y = y.flatten()
 y, y_min, y_max = normalize(y)
 
